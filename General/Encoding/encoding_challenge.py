@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-#from pwn import *
+
+from pwn import *
 import json
 import base64
 import codecs
 import telnetlib
 
-import Crypto.Util.number
+import Crypto.Util.number 
 
 HOST = "socket.cryptohack.org"
 PORT = 13377
